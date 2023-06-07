@@ -1,0 +1,13 @@
+.right-nav-bg{
+    background-image: url('../../../assets/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 480px;
+    width: 287px;
+    padding: 35px;
+    color: white;
+    text-align: center;
+   
+}
+
