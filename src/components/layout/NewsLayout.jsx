@@ -12,7 +12,7 @@ const NewsLayout = () => {
 
             </Header>
 
-            <Container>
+            <Container className='mt-4'>
                 <Row>
 
                     <Col lg={9}>

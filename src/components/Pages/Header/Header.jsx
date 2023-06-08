@@ -1,13 +1,11 @@
-import React from 'react';
 import logo from '../../../assets/logo.png';
 import moment from 'moment/moment';
 import { Button, Container } from 'react-bootstrap';
 import Marquee from "react-fast-marquee";
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = () => {
+    
+
     return (
 
         <Container>
@@ -24,30 +22,8 @@ const Header = () => {
                 </Marquee>
             </div>
 
-                        {/* navbar part  */}
+            {/* navbar part  */}
 
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className='mt-4 mb-4'>
-                <Container>
-                  
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="mx-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#about">About</Nav.Link>
-                            <Nav.Link href="#career">Career</Nav.Link>
-                         
-                        </Nav>
-                        <Nav>
-                            <Nav.Link href="#deets">Profile</Nav.Link>
-
-                            <Nav.Link eventKey={2} href="#memes">
-                                   <Button variant="dark"> Log In </Button>
-                            </Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
 
         </Container>
     );

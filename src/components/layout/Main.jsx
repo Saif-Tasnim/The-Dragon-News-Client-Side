@@ -5,6 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import LeftNav from '../Pages/Share/LeftNav';
 import RightNav from '../Pages/Share/RightNav';
 import {Outlet} from 'react-router-dom';
+import NavigationBar from '../Pages/NavigationBar/NavigationBar';
 
 const Main = () => {
     return (
@@ -12,6 +13,10 @@ const Main = () => {
             <Header>
 
             </Header>
+
+            <NavigationBar>
+                
+            </NavigationBar>
 
             <Container>
                 <Row>
